@@ -118,12 +118,13 @@ Wynik
 | co75zog                              		| 101         |
 
 
+#Agregacja 3
+
+
 Przed kolejnymi agregacjami należy stworzyć index do bazy<br>
 ```js
 db.exam.ensureIndex({body:"text"})
 ```
-
-#Agregacja 3
 
 Ilość wystąpień nazwy studia twórców gry League of Legends w temacie summonerschool<br>
 [JS](https://github.com/mralexx/egzaminNOSQL/blob/master/ag3.js)

@@ -127,6 +127,7 @@ db.exam.ensureIndex({body:"text"})
 ```
 
 Ilość wystąpień nazwy studia twórców gry League of Legends w temacie summonerschool<br>
+
 [JS](https://github.com/mralexx/egzaminNOSQL/blob/master/ag3.js)
 ```js
 var match = {$match: { $text: { $search: "riot"}, subreddit: "summonerschool"}};
